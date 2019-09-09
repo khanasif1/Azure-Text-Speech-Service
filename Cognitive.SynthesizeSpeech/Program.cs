@@ -11,7 +11,7 @@ namespace Cognitive.SynthesizeSpeech
         {
             // Creates an instance of a speech config with specified subscription key and service region.
             // Replace with your own subscription key and service region (e.g., "westus").
-            var config = SpeechConfig.FromSubscription("6d2c8d4d14be499faea542d3799df433", "westus");
+            var config = SpeechConfig.FromSubscription("XXXXXXXXXXX", "westus");
             string textToSpeak = "I am Asif Khan";
             // Creates a speech synthesizer using the default speaker as audio output.
             using (var synthesizer = new SpeechSynthesizer(config))

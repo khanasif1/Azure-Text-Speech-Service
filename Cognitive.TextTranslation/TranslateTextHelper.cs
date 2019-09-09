@@ -30,7 +30,7 @@ namespace Cognitive.TextTranslation
         public async Task TranslateInputText(string host, string route, string _Text)
         {
             //PWC NON PROD--sit-nif-mdm-test-df-37-rg-->facedetectpoc
-            string subscriptionKey = "4d4a8db396794fd0b39ac8d19509b63c";
+            string subscriptionKey = "XXXXXXXXXXXXXXXX";
             // Prompts you for text to translate. If you'd prefer, you can
             // provide a string as textToTranslate.
             Console.Write("Processing Input Text");
@@ -82,7 +82,7 @@ namespace Cognitive.TextTranslation
         public async Task<TranslationResult[]> TranslateInputText4Speech(string host, string route, string _Text)
         {
             //PWC NON PROD--sit-nif-mdm-test-df-37-rg-->facedetectpoc
-            string subscriptionKey = "4d4a8db396794fd0b39ac8d19509b63c";
+            string subscriptionKey = "XXXXXXXXXXXXXXXXXXXXXXXX";
             // Prompts you for text to translate. If you'd prefer, you can
             // provide a string as textToTranslate.
             Console.Write("Processing Input Text");
