@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName></SccProjectName>
+    <SccProvider></SccProvider>
+    <SccAuxPath></SccAuxPath>
+    <SccLocalPath></SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cognitive.TextTranslation\Cognitive.TextTranslation.csproj" />
+  </ItemGroup>
+
+</Project>

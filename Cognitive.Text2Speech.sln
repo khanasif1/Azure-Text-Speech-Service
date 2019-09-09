@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cognitive.Text2Speech.TranslateText", "Cognitive.Text2Speech.TranslateText\Cognitive.Text2Speech.TranslateText.csproj", "{56B6D3AB-210B-4DF6-9A3A-A3825B7DBBB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cognitive.TextTranslation", "Cognitive.TextTranslation\Cognitive.TextTranslation.csproj", "{79C94233-842C-4010-9D9A-5E82F1941E24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cognitive.SynthesizeSpeech", "Cognitive.SynthesizeSpeech\Cognitive.SynthesizeSpeech.csproj", "{CE6FBC08-EE18-4035-BFBA-27751AA983EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56B6D3AB-210B-4DF6-9A3A-A3825B7DBBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B6D3AB-210B-4DF6-9A3A-A3825B7DBBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B6D3AB-210B-4DF6-9A3A-A3825B7DBBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B6D3AB-210B-4DF6-9A3A-A3825B7DBBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C94233-842C-4010-9D9A-5E82F1941E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C94233-842C-4010-9D9A-5E82F1941E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C94233-842C-4010-9D9A-5E82F1941E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C94233-842C-4010-9D9A-5E82F1941E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE6FBC08-EE18-4035-BFBA-27751AA983EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6FBC08-EE18-4035-BFBA-27751AA983EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6FBC08-EE18-4035-BFBA-27751AA983EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6FBC08-EE18-4035-BFBA-27751AA983EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A2CEBD1-6E1D-4FCF-836C-95E9C2CEEABA}
+	EndGlobalSection
+EndGlobal
